@@ -1,0 +1,58 @@
+.fondo{
+	background:url('../img/img2.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.h1{
+   text-shadow: 6px 5px black;
+}
+
+.nav-pills .nav-link.active{
+  background-color: #ffc107;
+}
+
+#btnInicio{
+  box-shadow: 1px 1px white;
+}
+
+body{
+  position: relative;
+}
+
+/* Texto en la sección servicios */
+.servicios-text{
+  padding: 3rem;
+}
+
+/* Imagen en la sección servicios */
+.servicios-img{
+  min-height: 30rem;
+  background-size: cover;
+}
+
+/* Espacio entre cada sección */
+.espacio{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+/* Espacio para centrar el texto */
+.espacio2{
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+}
+
+
+/* Color del nav en inicio */
+.transparent{
+    background:transparent !important;
+    border-bottom: 1px solid transparent;
+    box-shadow: none;
+    padding-top: 15px;
+    transition: all 1s ease;
+}
+
+
+
